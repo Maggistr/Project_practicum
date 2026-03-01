@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<net version="1.16" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+    <edge id="edge1" from="node1" to="node2" priority="1" numLanes="1" speed="13.89">
+        <lane id="edge1_0" index="0" speed="13.89" length="500.00" shape="0.00,0.00 500.00,0.00"/>
+    </edge>
+
+    <junction id="node1" type="dead_end" x="0.00" y="0.00" incLanes="" intLanes="">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="node2" type="dead_end" x="500.00" y="0.00" incLanes="edge1_0" intLanes="">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+</net>
